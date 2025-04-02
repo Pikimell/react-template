@@ -16,12 +16,34 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           theme={{
             algorithm: theme.darkAlgorithm,
             token: {
-              colorPrimary: 'rgb(0, 166, 255)',
-              borderRadius: 2,
-              colorBgContainer: '#1c1f24',
-              colorBgBase: '#1c1f24',
-              colorBgLayout: '#1c1f24',
-              colorInfoBg: '#1c1f24',
+              // Основні кольори
+              colorPrimary: 'var(--primary-color)',
+              colorSuccess: 'var(--success-color)',
+              colorError: 'var(--danger-color)',
+              colorWarning: 'var(--warning-color)',
+              colorInfo: 'var(--info-color)',
+
+              // Фон
+              colorBgBase: 'var(--primary-dark)',
+              colorBgContainer: 'var(--primary-dark)',
+              colorBgLayout: 'var(--primary-dark)',
+              colorBgElevated: 'var(--secondary-dark)',
+
+              // Текст
+              colorTextBase: 'var(--primary-light)',
+              colorText: 'var(--primary-light)',
+
+              // Бордери
+              colorBorder: 'var(--border-color)',
+              borderRadius: 4,
+
+              // Типографіка
+              fontFamily: 'var(--font-family-base)',
+              fontSize: '1rem',
+              lineHeight: 1.5,
+
+              // Тінь
+              boxShadow: 'var(--box-shadow)',
             },
           }}
         >
