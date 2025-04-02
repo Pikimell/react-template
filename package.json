@@ -1,14 +1,14 @@
 {
   "name": "react-template",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "push": "git add . & git commit -m 'update'; git push"
+    "push": "git add . ; git commit -m 'update' ; git push"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
